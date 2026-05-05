@@ -1,0 +1,14 @@
+<option value="" disabled selected>---Initiative to mitigate Risk--</option>
+                <option value="1">Policy</option>
+                <option value="2">Law </option>
+                <option value="3">Awareness </option>
+                <option value="4">Economic Support </option>
+                <option value="5">Technology Transfer </option>
+                <option value="6">Psychosocial Care </option>
+                <option value="7">Legal Aid </option>
+                <option value="8">Health Care </option>
+                <option value="9">Shelter </option>
+                <option value="10">Technical Training </option>
+                <option value="11">Education </option>
+                <option value="12">Research </option>
+                <option value="13"> Othes Specify </option>

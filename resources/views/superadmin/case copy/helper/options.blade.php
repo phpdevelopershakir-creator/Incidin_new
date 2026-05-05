@@ -1,0 +1,10 @@
+    <option value="" disabled selected>---Choose an item--</option>
+    <option value="1">Enforced</option>
+    <option value="2">Updated and enforced</option>
+    <option value="3">Stricter enforcement</option>
+    <option value="4">Increased efforts</option>
+    <option value="5">Moderate Effortt</option>
+    <option value="6">Less Effort</option>
+    <option value="7">Poor Enforcement</option>
+    <option value="8">Under Review</option>
+    <option value="9">Other (Specify) </option>

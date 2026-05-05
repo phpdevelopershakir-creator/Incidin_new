@@ -1,0 +1,9 @@
+<option value="Dhaka">Dhaka </option>
+<option value="Chattogram">Chattogram </option>
+<option value="Khulna">Khulna </option>
+<option value="Rajshahi">Rajshahi </option>
+<option value="Barishal">Barishal </option>
+<option value="Sylhet">Sylhet </option>
+<option value="Rangpur">Rangpur </option>
+<option value="Mymensingh">Mymensingh </option>
+<option value="National">National </option>

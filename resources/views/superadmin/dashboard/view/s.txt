@@ -1,0 +1,893 @@
+@if(Auth::user()->can('9.question'))
+<div class="col-md-12 question9">
+  <div class="card card-outline collapsed-card">
+    <div class="card-header">
+      <h3 class="card-title">9.Did tde ministry/agency/organization fund and/or conduct awareness activities?
+      </h3>
+
+      <div class="card-tools">
+        <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-body">
+          
+         
+          
+
+      <table class="table table-white">
+        <tdead>
+          <tr>
+            <td rowspan="2" scope="col">Category</td>
+            <td colspan="1">Coverage/Response</td>
+          </tr>
+
+          <tr>
+            <td scope="col" colspan="2">M</td>
+            <td scope="col" colspan="2">W</td>
+            <td scope="col" colspan="2">3rd G</td>
+            <td scope="col" colspan="2">Total Adult</td>
+            <td scope="col"  colspan="2">Boys</td>
+            <td scope="col"  colspan="2">Girls</td>
+            <td scope="col"  colspan="2">Total children</td>
+            <td scope="col" colspan="2">Total </td>
+      
+           
+           
+          </tr>
+          <tr>
+            <td scope="col">Courtyard meeting </td>
+
+            
+              <td id="courtyard_total_mentp"></td>
+              <td id="totalCourtyardMenPercentagetp">%</td>
+            
+           
+            <td id="courtyard_total_womentp"></td>
+            <td id="totalCourtyardWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="courtyard_total_3rdtp"></td>
+              <td id="totalCourtyard3rdgPercentagetp"></td>
+        
+              <td id="total_adult_courtyard_meetingtp"></td>
+              <td id="totalCourtyPercentagetp"></td>
+            
+              <td id="courtyard_total_boystp"></td>
+              <td id="totalCourtyardBoysPercentagetp"></td>
+
+              
+              <td id="courtyard_total_girlstp"></td>
+              <td id="totalCourtyardGirlsPercentagetp"></td>
+              <td id="total_child_courtyard_meetingtp"></td>
+              <td id="totalChildCourtyPercentagetp"></td>
+              <td id="total_courtyard_meetingtp"></td>
+              <td id="totalCourtyuardMetting"></td>
+              
+          </tr>
+          <tr>
+            <td scope="col">Bazar/hatt meeting</td>
+          
+            <td id="bazar_total_mentp"></td>
+              <td id="totalBazarMenPercentagetp"></td>
+            
+           
+            <td id="bazar_total_womentp"></td>
+            <td id="totalBazarWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="bazar_total_3rdtp"></td>
+              <td id="totalBazar3rdgPercentagetp"></td>
+        
+              <td id="total_adult_bazar_meetingtp"></td>
+              <td id="totalBazarPercentagetp"></td>
+            
+              <td id="bazar_total_boystp"></td>
+              <td id="totalBazarBoysPercentagetp"></td>
+
+              
+              <td id="bazar_total_girlstp"></td>
+              <td id="totalBazarGirlsPercentagetp"></td>
+              <td id="total_child_bazar_meetingtp"></td>
+              <td id="totalChildBazarPercentagetp"></td>
+              <td id="total_bazar"></td>
+              <td id="totalBazardMetting"></td>
+          </tr>
+
+          <tr>
+            <td scope="col">CTC meeting </td>
+            <td id="ctc_total_mentp"></td>
+              <td id="totalCTCMenPercentagetp"></td>
+            
+           
+            <td id="ctc_total_womentp"></td>
+            <td id="totalCTCWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="ctc_total_3rdtp"></td>
+              <td id="totalCTC3rdgPercentagetp"></td>
+        
+              <td id="total_adult_ctc_meetingtp"></td>
+              <td id="totalCTCPercentagetp"></td>
+            
+              <td id="ctc_total_boystp"></td>
+              <td id="totalCTCBoysPercentagetp"></td>
+
+              
+              <td id="ctc_total_girlstp"></td>
+              <td id="totalCTCGirlsPercentagetp"></td>
+              <td id="ctc_child_bazar_meetingtp"></td>
+              <td id="totalChildCTCPercentagetp"></td>
+              <td id="total_ctc"></td>
+              <td id="totalCTC"></td>
+          </tr>
+          <tr>
+            <td scope="col">Consultation </td>
+            <td id="consultation_total_mentp"></td>
+              <td id="totalConsultationMenPercentagetp"></td>
+            
+           
+            <td id="consultation_total_womentp"></td>
+            <td id="totalConsultationWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="consultation_total_3rdtp"></td>
+              <td id="totalConsultation3rdgPercentagetp"></td>
+        
+              <td id="total_adult_consultation"></td>
+              <td id="totalConsultationPercentagetp"></td>
+            
+              <td id="consultation_total_boystp"></td>
+              <td id="totalConsultationBoysPercentagetp"></td>
+
+              
+              <td id="consultation_total_girlstp"></td>
+              <td id="totalConsultationGirlsPercentagetp"></td>
+              <td id="consultation_child_meetingtp"></td>
+              <td id="totalConsultationChildPercentagetp"></td>
+              <td id="total_consultation"></td>
+              <td id="totalConsultation"></td>
+          </tr>
+
+          <tr>
+            <td scope="col">Poster </td>
+            <td id="poster_total_mentp"></td>
+              <td id="totalPosterMenPercentagetp"></td>
+            
+           
+            <td id="poster_total_womentp"></td>
+            <td id="totalPosterWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="poster_total_3rdtp"></td>
+              <td id="totalPoster3rdgPercentagetp"></td>
+        
+              <td id="total_adult_poster"></td>
+              <td id="totalPosterPercentagetp"></td>
+            
+              <td id="poster_total_boystp"></td>
+              <td id="totalPosterBoysPercentagetp"></td>
+
+              
+              <td id="poster_total_girlstp"></td>
+              <td id="totalPosterGirlsPercentagetp"></td>
+              <td id="poster_child_total"></td>
+              <td id="totalPosterChildPercentagetp"></td>
+              <td id="total_poster"></td>
+              <td id="totalPoster"></td>
+          </tr>
+
+          <tr>
+            <td scope="col">leaflet </td>
+            <td id="leaflet_total_mentp"></td>
+              <td id="totalLeafletMenPercentagetp"></td>
+            
+           
+            <td id="leaflet_total_womentp"></td>
+            <td id="totallLeafletWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="leaflet_total_3rdtp"></td>
+              <td id="totallLeaflet3rdgPercentagetp"></td>
+        
+              <td id="total_adult_leaflet"></td>
+              <td id="totallLeafletPercentagetp"></td>
+            
+              <td id="leaflet_total_boystp"></td>
+              <td id="totallLeafletBoysPercentagetp"></td>
+
+              
+              <td id="leaflet_total_girlstp"></td>
+              <td id="totallLeafletGirlsPercentagetp"></td>
+              <td id="leaflet_child_total"></td>
+              <td id="totallLeafletChildPercentagetp"></td>
+              <td id="total_leaflet"></td>
+              <td id="totalLeadflet"></td>
+          </tr>
+
+          <tr>
+            <td scope="col">Booklet </td>
+            <td id="booklet_total_mentp"></td>
+              <td id="totalBookletMenPercentagetp"></td>
+            
+           
+            <td id="booklet_total_womentp"></td>
+            <td id="totalBookletWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="booklet_total_3rdtp"></td>
+              <td id="totalBooklet3rdgPercentagetp"></td>
+        
+              <td id="total_adult_booklet"></td>
+              <td id="totalBookletPercentagetp"></td>
+            
+              <td id="booklet_total_boystp"></td>
+              <td id="totalBookletBoysPercentagetp"></td>
+
+              
+              <td id="booklet_total_girlstp"></td>
+              <td id="totalBookletGirlsPercentagetp"></td>
+              <td id="booklet_child_total"></td>
+              <td id="totalBookletChildPercentagetp"></td>
+              <td id="total_booklet"></td>
+              <td id="totalBooklet"></td>
+          </tr>
+
+          <tr>
+            <td scope="col">SMS </td>
+            <td id="sms_total_mentp"></td>
+              <td id="totalSMSMenPercentagetp"></td>
+            
+           
+            <td id="sms_total_womentp"></td>
+            <td id="totalSMSWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="sms_total_3rdtp"></td>
+              <td id="totalSMS3rdgPercentagetp"></td>
+        
+              <td id="total_adult_sms"></td>
+              <td id="totalSMSPercentagetp"></td>
+            
+              <td id="sms_total_boystp"></td>
+              <td id="totalSMSBoysPercentagetp"></td>
+
+              
+              <td id="sms_total_girlstp"></td>
+              <td id="totalSMSGirlsPercentagetp"></td>
+              <td id="sms_child_total"></td>
+              <td id="totalSMSChildPercentagetp"></td>
+              <td id="total_sms"></td>
+              <td id="totalSMS"></td>
+          </tr>
+
+          <tr>
+            <td scope="col">Newsletter </td>
+            <td id="newsletter_total_mentp"></td>
+              <td id="totalNewsletterMenPercentagetp"></td>
+            
+           
+            <td id="newsletter_total_womentp"></td>
+            <td id="totalNewsletterWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="newsletter_total_3rdtp"></td>
+              <td id="totalNewsletter3rdgPercentagetp"></td>
+        
+              <td id="total_adult_newsletter"></td>
+              <td id="totalNewsletterPercentagetp"></td>
+            
+              <td id="newsletter_total_boystp"></td>
+              <td id="totalNewsletterBoysPercentagetp"></td>
+
+              
+              <td id="newsletter_total_girlstp"></td>
+              <td id="totalNewsletterGirlsPercentagetp"></td>
+              <td id="newsletter_child_total"></td>
+              <td id="totalNewsletterChildPercentagetp"></td>
+              <td id="newsletter_total"></td>
+              <td id="totalNewsletter"></td>
+          </tr>
+          <tr>
+            <td scope="col">Billboard </td>
+            <td id="billboard_total_mentp"></td>
+              <td id="totalBillboardMenPercentagetp"></td>
+            
+           
+            <td id="billboard_total_womentp"></td>
+            <td id="totalBillboardWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="billboard_total_3rdtp"></td>
+              <td id="totalBillboard3rdgPercentagetp"></td>
+        
+              <td id="total_adult_billboard"></td>
+              <td id="totalBillboardPercentagetp"></td>
+            
+              <td id="billboard_total_boystp"></td>
+              <td id="totalBillboardBoysPercentagetp"></td>
+
+              
+              <td id="billboard_total_girlstp"></td>
+              <td id="totalBillboardGirlsPercentagetp"></td>
+
+              <td id="billboard_child_total"></td>
+              <td id="totalBillboardChildPercentagetp"></td>
+              <td id="billboard_total"></td>
+              <td id="totalBillboard"></td>
+          </tr>
+
+          <tr>
+            <td scope="col">Folk show </td>
+            <td id="folk_total_mentp"></td>
+              <td id="totalFolkMenPercentagetp"></td>
+            
+           
+            <td id="folk_total_womentp"></td>
+            <td id="totalFolkWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="folk_total_3rdtp"></td>
+              <td id="totalFolk3rdgPercentagetp"></td>
+        
+              <td id="total_adult_folk"></td>
+              <td id="totalFolkPercentagetp"></td>
+            
+              <td id="folk_total_boystp"></td>
+              <td id="totalFolkBoysPercentagetp"></td>
+
+              
+              <td id="folk_total_girlstp"></td>
+              <td id="totalFolkGirlsPercentagetp"></td>
+
+              <td id="folk_child_total"></td>
+              <td id="totalFolkChildPercentagetp"></td>
+              <td id="folk_total"></td>
+              <td id="totallFolk"></td>
+          </tr>
+
+          <tr>
+            <td scope="col">Film show </td>
+            <td id="film_total_mentp"></td>
+              <td id="totalFilmMenPercentagetp"></td>
+            
+           
+            <td id="film_total_womentp"></td>
+            <td id="totalFilmWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="film_total_3rdtp"></td>
+              <td id="totalFilm3rdgPercentagetp"></td>
+        
+              <td id="total_adult_film"></td>
+              <td id="totalFilmPercentagetp"></td>
+            
+              <td id="film_total_boystp"></td>
+              <td id="totalFilmBoysPercentagetp"></td>
+
+              
+              <td id="film_total_girlstp"></td>
+              <td id="totalFilmGirlsPercentagetp"></td>
+
+              <td id="film_child_total"></td>
+              <td id="totalFilmChildPercentagetp"></td>
+              <td id="film_total"></td>
+              <td id="totallFilm"></td>
+          </tr>
+
+          <tr>
+            <td scope="col">Miking </td>
+            <td id="miking_total_mentp"></td>
+              <td id="totalMilkingMenPercentagetp"></td>
+            
+           
+            <td id="miking_total_womentp"></td>
+            <td id="totalMilkingWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="miking_total_3rdtp"></td>
+              <td id="totalMilking3rdgPercentagetp"></td>
+        
+              <td id="total_adtul_making"></td>
+              <td id="totalMilkingPercentagetp"></td>
+            
+              <td id="making_total_boystp"></td>
+              <td id="totalMilkBoysPercentagetp"></td>
+
+              
+              <td id="making_total_girlstp"></td>
+              <td id="totalMilkGirlsPercentagetp"></td>
+
+              <td id="making_child_total"></td>
+              <td id="totalMilkChildPercentagetp"></td>
+              <td id="miking_total"></td>
+              <td id="totallMilk"></td>
+          </tr>
+          <tr>
+            <td scope="col">Web campaign </td>
+            <td id="web_campaign_total_mentp"></td>
+              <td id="totalWebMenPercentagetp"></td>
+            
+           
+            <td id="web_campaign_total_womentp"></td>
+            <td id="totalWebWoMenPercentagetp"></td>
+           
+            
+            
+            <td id="web_campaign_total_3rdtp"></td>
+              <td id="totalWeb3rdgPercentagetp"></td>
+        
+              <td id="total_adult_web"></td>
+              <td id="totalWebPercentagetp"></td>
+            
+              <td id="web_campaign_total_boystp"></td>
+              <td id="totalWEBBoysPercentagetp"></td>
+
+              
+              <td id="web_campaign_total_girlstp"></td>
+              <td id="totalWEBGirlsPercentagetp"></td>
+
+              <td id="web_campaign_child_total"></td>
+              <td id="totalWEBChildPercentagetp"></td>
+              <td id="web_campaign_total"></td>
+              <td id="totalWeb"></td>
+          </tr>
+
+   
+        </tdead>
+      </table>
+
+      <b></b>
+     
+    
+    </div>
+
+    <div class="card-body">
+          
+         
+          
+
+          <table class="table table-white">
+            <tdead>
+              <tr>
+                <td rowspan="2" scope="col">Category</td>
+                <td colspan="15">Coverage/Response</td>
+              </tr>
+    
+              <tr>
+                <td scope="col" colspan="2">M</td>
+                <td scope="col" colspan="2">W</td>
+                <td scope="col" colspan="2">3rd G</td>
+                <td scope="col" colspan="2">Total Adult</td>
+                <td scope="col"  colspan="2">Boys</td>
+                <td scope="col"  colspan="2">Girls</td>
+                <td scope="col"  colspan="2">Total children</td>
+                <td scope="col">Total </td>
+          
+               
+               
+              </tr>
+              <tr>
+                <td scope="col">Courtyard meeting </td>
+    
+                
+                  <td id="courtyard_total_mentp"></td>
+                  <td id="totalCourtyardMenPercentagetp">%</td>
+                
+               
+                <td id="courtyard_total_womentp"></td>
+                <td id="totalCourtyardWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="courtyard_total_3rdtp"></td>
+                  <td id="totalCourtyard3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_courtyard_meetingtp"></td>
+                  <td id="totalCourtyPercentagetp"></td>
+                
+                  <td id="courtyard_total_boystp"></td>
+                  <td id="totalCourtyardBoysPercentagetp"></td>
+    
+                  
+                  <td id="courtyard_total_girlstp"></td>
+                  <td id="totalCourtyardGirlsPercentagetp"></td>
+                  <td id="total_child_courtyard_meetingtp"></td>
+                  <td id="totalChildCourtyPercentagetp"></td>
+                  <td id="totalCourtyuardMetting"></td>
+                  
+              </tr>
+              <tr>
+                <td scope="col">Bazar/hatt meeting</td>
+              
+                <td id="bazar_total_mentp"></td>
+                  <td id="totalBazarMenPercentagetp"></td>
+                
+               
+                <td id="bazar_total_womentp"></td>
+                <td id="totalBazarWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="bazar_total_3rdtp"></td>
+                  <td id="totalBazar3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_bazar_meetingtp"></td>
+                  <td id="totalBazarPercentagetp"></td>
+                
+                  <td id="bazar_total_boystp"></td>
+                  <td id="totalBazarBoysPercentagetp"></td>
+    
+                  
+                  <td id="bazar_total_girlstp"></td>
+                  <td id="totalBazarGirlsPercentagetp"></td>
+                  <td id="total_child_bazar_meetingtp"></td>
+                  <td id="totalChildBazarPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+    
+              <tr>
+                <td scope="col">CTC meeting </td>
+                <td id="ctc_total_mentp"></td>
+                  <td id="totalCTCMenPercentagetp"></td>
+                
+               
+                <td id="ctc_total_womentp"></td>
+                <td id="totalCTCWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="ctc_total_3rdtp"></td>
+                  <td id="totalCTC3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_ctc_meetingtp"></td>
+                  <td id="totalCTCPercentagetp"></td>
+                
+                  <td id="ctc_total_boystp"></td>
+                  <td id="totalCTCBoysPercentagetp"></td>
+    
+                  
+                  <td id="ctc_total_girlstp"></td>
+                  <td id="totalCTCGirlsPercentagetp"></td>
+                  <td id="ctc_child_bazar_meetingtp"></td>
+                  <td id="totalChildCTCPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+              <tr>
+                <td scope="col">Consultation </td>
+                <td id="consultation_total_mentp"></td>
+                  <td id="totalConsultationMenPercentagetp"></td>
+                
+               
+                <td id="consultation_total_womentp"></td>
+                <td id="totalConsultationWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="consultation_total_3rdtp"></td>
+                  <td id="totalConsultation3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_consultation"></td>
+                  <td id="totalConsultationPercentagetp"></td>
+                
+                  <td id="consultation_total_boystp"></td>
+                  <td id="totalConsultationBoysPercentagetp"></td>
+    
+                  
+                  <td id="consultation_total_girlstp"></td>
+                  <td id="totalConsultationGirlsPercentagetp"></td>
+                  <td id="consultation_child_meetingtp"></td>
+                  <td id="totalConsultationChildPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+    
+              <tr>
+                <td scope="col">Poster </td>
+                <td id="poster_total_mentp"></td>
+                  <td id="totalPosterMenPercentagetp"></td>
+                
+               
+                <td id="poster_total_womentp"></td>
+                <td id="totalPosterWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="poster_total_3rdtp"></td>
+                  <td id="totalPoster3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_poster"></td>
+                  <td id="totalPosterPercentagetp"></td>
+                
+                  <td id="poster_total_boystp"></td>
+                  <td id="totalPosterBoysPercentagetp"></td>
+    
+                  
+                  <td id="poster_total_girlstp"></td>
+                  <td id="totalPosterGirlsPercentagetp"></td>
+                  <td id="poster_child_total"></td>
+                  <td id="totalPosterChildPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+    
+              <tr>
+                <td scope="col">leaflet </td>
+                <td id="leaflet_total_mentp"></td>
+                  <td id="totalLeafletMenPercentagetp"></td>
+                
+               
+                <td id="leaflet_total_womentp"></td>
+                <td id="totallLeafletWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="leaflet_total_3rdtp"></td>
+                  <td id="totallLeaflet3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_leaflet"></td>
+                  <td id="totallLeafletPercentagetp"></td>
+                
+                  <td id="leaflet_total_boystp"></td>
+                  <td id="totallLeafletBoysPercentagetp"></td>
+    
+                  
+                  <td id="leaflet_total_girlstp"></td>
+                  <td id="totallLeafletGirlsPercentagetp"></td>
+                  <td id="leaflet_child_total"></td>
+                  <td id="totallLeafletChildPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+    
+              <tr>
+                <td scope="col">Booklet </td>
+                <td id="booklet_total_mentp"></td>
+                  <td id="totalBookletMenPercentagetp"></td>
+                
+               
+                <td id="booklet_total_womentp"></td>
+                <td id="totalBookletWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="booklet_total_3rdtp"></td>
+                  <td id="totalBooklet3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_booklet"></td>
+                  <td id="totalBookletPercentagetp"></td>
+                
+                  <td id="booklet_total_boystp"></td>
+                  <td id="totalBookletBoysPercentagetp"></td>
+    
+                  
+                  <td id="booklet_total_girlstp"></td>
+                  <td id="totalBookletGirlsPercentagetp"></td>
+                  <td id="booklet_child_total"></td>
+                  <td id="totalBookletChildPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+    
+              <tr>
+                <td scope="col">SMS </td>
+                <td id="sms_total_mentp"></td>
+                  <td id="totalSMSMenPercentagetp"></td>
+                
+               
+                <td id="sms_total_womentp"></td>
+                <td id="totalSMSWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="sms_total_3rdtp"></td>
+                  <td id="totalSMS3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_sms"></td>
+                  <td id="totalSMSPercentagetp"></td>
+                
+                  <td id="sms_total_boystp"></td>
+                  <td id="totalSMSBoysPercentagetp"></td>
+    
+                  
+                  <td id="sms_total_girlstp"></td>
+                  <td id="totalSMSGirlsPercentagetp"></td>
+                  <td id="sms_child_total"></td>
+                  <td id="totalSMSChildPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+    
+              <tr>
+                <td scope="col">Newsletter </td>
+                <td id="newsletter_total_mentp"></td>
+                  <td id="totalNewsletterMenPercentagetp"></td>
+                
+               
+                <td id="newsletter_total_womentp"></td>
+                <td id="totalNewsletterWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="newsletter_total_3rdtp"></td>
+                  <td id="totalNewsletter3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_newsletter"></td>
+                  <td id="totalNewsletterPercentagetp"></td>
+                
+                  <td id="newsletter_total_boystp"></td>
+                  <td id="totalNewsletterBoysPercentagetp"></td>
+    
+                  
+                  <td id="newsletter_total_girlstp"></td>
+                  <td id="totalNewsletterGirlsPercentagetp"></td>
+                  <td id="newsletter_child_total"></td>
+                  <td id="totalNewsletterChildPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+              <tr>
+                <td scope="col">Billboard </td>
+                <td id="billboard_total_mentp"></td>
+                  <td id="totalBillboardMenPercentagetp"></td>
+                
+               
+                <td id="billboard_total_womentp"></td>
+                <td id="totalBillboardWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="billboard_total_3rdtp"></td>
+                  <td id="totalBillboard3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_billboard"></td>
+                  <td id="totalBillboardPercentagetp"></td>
+                
+                  <td id="billboard_total_boystp"></td>
+                  <td id="totalBillboardBoysPercentagetp"></td>
+    
+                  
+                  <td id="billboard_total_girlstp"></td>
+                  <td id="totalBillboardGirlsPercentagetp"></td>
+    
+                  <td id="billboard_child_total"></td>
+                  <td id="totalBillboardChildPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+    
+              <tr>
+                <td scope="col">Folk show </td>
+                <td id="folk_total_mentp"></td>
+                  <td id="totalFolkMenPercentagetp"></td>
+                
+               
+                <td id="folk_total_womentp"></td>
+                <td id="totalFolkWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="folk_total_3rdtp"></td>
+                  <td id="totalFolk3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_folk"></td>
+                  <td id="totalFolkPercentagetp"></td>
+                
+                  <td id="folk_total_boystp"></td>
+                  <td id="totalFolkBoysPercentagetp"></td>
+    
+                  
+                  <td id="folk_total_girlstp"></td>
+                  <td id="totalFolkGirlsPercentagetp"></td>
+    
+                  <td id="folk_child_total"></td>
+                  <td id="totalFolkChildPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+    
+              <tr>
+                <td scope="col">Film show </td>
+                <td id="film_total_mentp"></td>
+                  <td id="totalFilmMenPercentagetp"></td>
+                
+               
+                <td id="film_total_womentp"></td>
+                <td id="totalFilmWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="film_total_3rdtp"></td>
+                  <td id="totalFilm3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_film"></td>
+                  <td id="totalFilmPercentagetp"></td>
+                
+                  <td id="film_total_boystp"></td>
+                  <td id="totalFilmBoysPercentagetp"></td>
+    
+                  
+                  <td id="film_total_girlstp"></td>
+                  <td id="totalFilmGirlsPercentagetp"></td>
+    
+                  <td id="film_child_total"></td>
+                  <td id="totalFilmChildPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+    
+              <tr>
+                <td scope="col">Miking </td>
+                <td id="miking_total_mentp"></td>
+                  <td id="totalMilkingMenPercentagetp"></td>
+                
+               
+                <td id="miking_total_womentp"></td>
+                <td id="totalMilkingWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="miking_total_3rdtp"></td>
+                  <td id="totalMilking3rdgPercentagetp"></td>
+            
+                  <td id="total_adtul_making"></td>
+                  <td id="totalMilkingPercentagetp"></td>
+                
+                  <td id="making_total_boystp"></td>
+                  <td id="totalMilkBoysPercentagetp"></td>
+    
+                  
+                  <td id="making_total_girlstp"></td>
+                  <td id="totalMilkGirlsPercentagetp"></td>
+    
+                  <td id="making_child_total"></td>
+                  <td id="totalMilkChildPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+              <tr>
+                <td scope="col">Web campaign </td>
+                <td id="web_campaign_total_mentp"></td>
+                  <td id="totalWebMenPercentagetp"></td>
+                
+               
+                <td id="web_campaign_total_womentp"></td>
+                <td id="totalWebWoMenPercentagetp"></td>
+               
+                
+                
+                <td id="web_campaign_total_3rdtp"></td>
+                  <td id="totalWeb3rdgPercentagetp"></td>
+            
+                  <td id="total_adult_web"></td>
+                  <td id="totalWebPercentagetp"></td>
+                
+                  <td id="web_campaign_total_boystp"></td>
+                  <td id="totalWEBBoysPercentagetp"></td>
+    
+                  
+                  <td id="web_campaign_total_girlstp"></td>
+                  <td id="totalWEBGirlsPercentagetp"></td>
+    
+                  <td id="web_campaign_child_total"></td>
+                  <td id="totalWEBChildPercentagetp"></td>
+                  <td id=""></td>
+              </tr>
+    
+       
+            </tdead>
+          </table>
+    
+          <b></b>
+         
+        
+        </div>
+
+  </div>
+</div>
+
+
+@endif

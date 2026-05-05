@@ -1,0 +1,11 @@
+<option value="" disabled selected>---Choose an item--</option>
+<option value="1">Firmly Implemented/enforced</option>
+<option value="2">Reformed</option>
+<option value="3">Planned</option>
+<option value="4">Drafted</option>
+<option value="5">Updated</option>
+<option value="6">Partially enforced</option>
+<option value="7">Expanded use</option>
+<option value="8">Prohibited by law</option>
+<option value="9">Prohibitated by circular</option>
+<option value="10">Strictly monitored</option>

@@ -1,0 +1,12 @@
+<option value="">Choose an item.</option>
+<option value="1">Migrant Men</option>
+<option value="2">Migrant Women</option>
+<option value="3">3rd G Gender</option>
+<option value="4">Girls of Poor Household</option>
+<option value="5">Boys of Poor Household</option>
+<option value="6">Men</option>
+<option value="7">Women</option>
+<option value="8">Children of Sex Worker</option>
+<option value="9">Child Labour</option>
+<option value="10">Street Children</option>
+<option value="11">Other (Specify)</option>
